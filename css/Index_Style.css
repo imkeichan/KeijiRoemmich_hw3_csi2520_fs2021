@@ -1,14 +1,36 @@
+*{
+    background-color: rgb(228, 224, 218);
+}
 h1{
     text-align: center;
-    font-size: 85px;
-    color: blueviolet;
+    font-size: 60px;
+    color: rgb(59, 182, 115);
+    background-color:blanchedalmond;
+    padding: 2px;
 }
+
+.introduction{
+    display: flex;
+    padding: 10px;
+    border-style: groove;
+    border-width: 15px;
+    float: right;
+}
+h3{
+    text-align: left;
+    color: rgb(236, 183, 114);
+}
+
+
+
 figure{
     float:left
 }
 figcaption{
     padding:10px;
+    outline-color: black;
     outline-style: double;
+    outline-width: 2px;
 }
 ul{
     list-style: none;
@@ -32,4 +54,7 @@ li:last-child{
     float: right;
     border-right: none;
     border-left: 1px groove;
+}
+body{
+    color: burlywood;
 }
