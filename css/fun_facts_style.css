@@ -1,0 +1,68 @@
+*{
+    background-color: cornsilk;
+    margin: auto;
+    padding: auto;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(59, 182, 115);
+    background-color: blanchedalmond;
+}
+#Favbook{
+    color: blue;
+}
+ul{
+    list-style: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    font-size: 30px;
+  
+}
+li{
+    margin: 5px;
+    padding: 4px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.637);
+    float: left;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+li:last-child{
+    float: right;
+    border-right: none;
+    border-left: 1px groove;
+}
+h2{
+    padding: 10px;
+    margin-top: 50px;
+    text-align: justify;
+}
+div{
+    padding: 15px;
+    
+}
+figure{
+    width: 50%;
+    float: left;
+    
+}
+.favorite_book{
+    flex: 50%;
+    overflow: auto;
+    height: 100px;
+    float: right;
+}
+#Tenettrailer{
+    float: right;
+    background-color: brown;
+    text-align: justify;
+}
+
+
+

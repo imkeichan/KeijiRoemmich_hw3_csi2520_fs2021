@@ -8,17 +8,23 @@ h1{
     background-color:blanchedalmond;
     padding: 2px;
 }
+figure{
+    position: relative;
+
+}
 
 .introduction{
     display: flex;
     padding: 10px;
     border-style: groove;
     border-width: 15px;
-    float: right;
+    float: left;
 }
 h3{
+    font-family:'Times New Roman', Times, serif;
     text-align: left;
     color: rgb(236, 183, 114);
+    text-align: justify;
 }
 
 
@@ -57,4 +63,7 @@ li:last-child{
 }
 body{
     color: burlywood;
+}
+footer{
+    color:black;
 }
