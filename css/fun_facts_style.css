@@ -1,7 +1,7 @@
 *{
     background-color: cornsilk;
     margin: auto;
-    padding: auto;
+    padding: 2px;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,7 +13,7 @@ h1{
     background-color: blanchedalmond;
 }
 #Favbook{
-    color: blue;
+    color: rgb(174, 0, 255);
 }
 ul{
     list-style: none;
@@ -52,16 +52,25 @@ figure{
     float: left;
     
 }
-.favorite_book{
-    flex: 50%;
-    overflow: auto;
-    height: 100px;
-    float: right;
+
+#akira_ex{
+    font-size: large;
 }
-#Tenettrailer{
-    float: right;
-    background-color: brown;
-    text-align: justify;
+.music{
+    float: left;
+    
+}
+#fav_music{
+    color: cadetblue;
+}
+#tenetmovie{
+    float: left;
+}
+#tenet_ex{
+    font-size: large;
+}
+footer{
+    float: left;
 }
 
 
